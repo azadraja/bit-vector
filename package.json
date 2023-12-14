@@ -1,0 +1,28 @@
+{
+  "name": "bit-vector",
+  "version": "1.0.0",
+  "description": "Bit Vector Datastructure implementation in typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "test",
+    "build": "tsc"
+  },
+  "keywords": [
+    "bitvector",
+    "bit",
+    "vector",
+    "boolean",
+    "array",
+    "data",
+    "structures",
+    "javascript",
+    "typescript",
+    "libraries"
+  ],
+  "author": "Raja Avinash Alli",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

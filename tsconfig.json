@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Source code directory
+    "declaration": true, // Generates corresponding '.d.ts' files
+    "declarationMap": true, // Generates source maps for '.d.ts' files
+    "sourceMap": true // Generates source maps for compiled files
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
